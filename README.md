@@ -1,5 +1,11 @@
 # rusty_sqlite
 
+> **This repository has moved.** `rusty_sqlite` now lives at
+> [`crates/rusty_sqlite`](https://github.com/Rusty-Mill/rusty_mill/tree/main/crates/rusty_sqlite)
+> in the [`rusty_mill`](https://github.com/Rusty-Mill/rusty_mill) monorepo, with full commit
+> history preserved. This repository is kept for historical reference and is no longer
+> developed; please open issues and pull requests against `rusty_mill` instead.
+
 A thin, ergonomic wrapper over [`rusqlite`](https://docs.rs/rusqlite) for embedding SQLite as an application's persistence layer.
 
 This crate does not try to replace `rusqlite` — it re-exports it — and instead fills three gaps that come up in every consumer that embeds SQLite directly:
